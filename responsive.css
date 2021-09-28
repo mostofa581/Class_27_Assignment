@@ -1,15 +1,17 @@
-.menu label {
-    display: none;
-}
+
+/* responsive css  */
+
+
 .menu input{
     display: none;
 }
+
+.menu label {
+    display: none;
+}
+
 @media (max-width: 992px){
-    /* header css */
-    .nav {
-        width: 100%;
-        height: auto;
-    }
+    
     .logo {
         width: 100%;
         text-align: center;
@@ -17,6 +19,11 @@
     .nav .logo p {
         line-height: 40px;
     }
+    .nav {
+        width: 100%;
+        height: auto;
+    }
+   
     .menu {
         width: 100%;
     }
@@ -27,13 +34,11 @@
         line-height: 40px;
         font-size: 16px;
     }
-    /* banner css */
+    
     .banner {
         padding: 90px 0;
     }
-    .banner h1 {
-        font-size: 40px;
-    }
+
     .banner h5 {
         margin-top: 10px;
         margin-bottom: 20px;
@@ -42,7 +47,11 @@
         padding: 5px 13px;
         font-size: 14px;
     }
-    /* service css */
+    .banner h1 {
+        font-size: 40px;
+    }
+    
+    
     .service {
         padding: 60px;
     }
@@ -56,16 +65,16 @@
     .service-item {
         margin-top: 60px;
     }
-    .s-item {
+    .first-item {
         width: 48%;
         float: left;
         margin-right: 3%;
         margin-bottom: 40px;
     }
-    .s-item:nth-child(2n+2){
+    .first-item:nth-child(2n+2){
         margin-right: 0;
     }
-    /* about css */
+    
     .about {
         padding: 50px 55px;
     }
@@ -94,7 +103,7 @@
     }
 }
 @media (max-width: 576px){
-    /* header css */
+    
     .nav .logo p {
         line-height: 35px;
     }
@@ -102,7 +111,7 @@
         line-height: 35px;
         font-size: 13px;
     }
-    /* banner css */
+    
     .banner {
         padding: 80px 0;
     }
@@ -114,20 +123,16 @@
         font-size: 17px;
         margin-bottom: 20px;
     }
-    /* service css */
+    
     .service {
         padding: 30px 40px;
     }
-    /* contact css */
+   
     .contact {
         padding: 30px 40px;
     }
 }
 @media (max-width: 425px){
-    /* header css */
-    .nav {
-        padding: 0;
-    }
     .logo {
         text-align: left;
         padding: 10px 15px;
@@ -135,15 +140,18 @@
     .menu{
         position: relative;
     }
+  
+    .nav {
+        padding: 0;
+    }
+    
     .menu label {
         display: block;
         position: absolute;
         right: 20px;
         top: -38px;
     }
-    .menu #check{
-        display: none;
-    }
+
     .menu label i{
         color: #fff;
         font-size: 25px;
@@ -153,19 +161,26 @@
         visibility: visible !important;
         opacity: 1 !important;
     }
+    .menu #check{
+        display: none;
+    }
+   
     .menu ul {
-        width: 0;
-        background: #0a352ce5;
-        margin-top: 10px;
         position: absolute;
         top: -11px;
         left: 0;
-        height: 100vh;
+        height: 635px;
         padding-top: 15px;
         overflow: hidden;
         visibility: hidden;
         opacity: 0;
         transition: .5s;
+        width: 0;
+        background: #25252550;
+        margin-top: 10px;                                  
+        
+        
+        
     }
     .menu ul li{
         display: block;
@@ -204,18 +219,18 @@
     .service-item {
         margin-top: 45px;
     }
-    .s-item {
+    .first-item {
         width: 100%;
         padding: 0 20px;
     }
-    .s-item span {
+    .first-item span {
         font-size: 35px;
     }
-    .s-item h3 {
+    .first-item h3 {
         font-size: 20px;
         margin-bottom: 5px;
     }
-    .s-item p {
+    .first-item p {
         font-size: 15px;
     }
     /* about css */
